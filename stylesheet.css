@@ -1,3 +1,442 @@
 .title {
   color: #02ccba;
 }
+a {
+  text-decoration: none;
+}
+body {
+  margin:0;
+}
+li {
+  list-style: none;
+  float:left;
+}
+header {
+  background-color: white;
+  height:80px;
+  position: fixed;
+  z-index: 10;
+  top:0;
+  width:100%;
+  box-shadow: 0 3px rgb(51, 201, 93);
+}
+h2,h3,p {
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding:0 15px;
+  text-align: center;
+}
+.fa-bars {
+  color: rgb(51, 201, 93);
+}
+.header-menu {
+  float:left;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.header-list {
+  float:right;
+  margin-top: 8px;
+}
+.header-logo:hover {
+  cursor: pointer;
+}
+.header-logo img {
+  display: inline-block;
+  float:left;
+  width:20%;
+  padding-top:13px;
+  padding-left: 530px;
+}
+.login-btn {
+  color:rgb(51, 201, 93);
+  display:inline-block;
+  border:1px solid rgb(51, 201, 93);
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-family: sans-serif;
+}
+.signup-btn {
+  color:white;
+  display:inline-block;
+  background-color: rgb(51, 201, 93);
+  padding: 6px 11px;
+  font-family: sans-serif;
+  border-radius: 3px;
+}
+.top-wrapper {
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/YUKI0211001_TP_V.jpg);
+  padding:200px 0 200px 0;
+  background-size: cover;
+  position: relative;
+}
+.top-wrapper h1 {
+  text-align: left;
+  padding-left: 50px;
+  color: white;
+  font-size: 55px;
+  text-shadow: 1px 2px 3px  #808080;
+}
+.hash {
+  display: inline-block;
+  padding-right: 30px;
+  position: absolute;
+  top: 520px;
+  left:970px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px  #808080;
+}
+.hash2 {
+  display: inline-block;
+  padding-right: 30px;
+  position: absolute;
+  top: 570px;
+  left:970px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px  #808080;
+}
+.intro-wrapper {
+  height:880px;
+}
+.heading h3 {
+  color: rgb(51, 201, 93);
+  padding-top: 30px;
+  font-size: 30px;
+}
+.heading h2 {
+  font-size: 40px;
+}
+.heading p {
+  display: inline-block;
+  width: 48%;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+.course {
+  float:left;
+  width: 33.3%;
+}
+.course-image img {
+  display: inline-block;
+  width: 50%;
+  padding-top: 80px;
+}
+.course h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.course p {
+  display: inline-block;
+  opacity: 0.5;
+  width:60%;
+  margin-top: 0;
+}
+.check-wrapper {
+  height: 3070px;
+  background-color: rgb(51, 201, 93);
+}
+.check-wrapper h3 {
+  color:white;
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.check-box {
+  background-color: white;
+  height: 660px;
+  margin:0 200px;
+}
+.checkmark001{
+	padding-left:100px;
+  padding-top: 70px;
+	position:relative;
+  float:left;
+  margin-left: 190px;
+  font-size: 30px;
+}
+.checkmark001:before,
+.checkmark001:after{
+	content:"";
+	display:block;
+	position:absolute;
+  margin-top: 70px;
+}
+.checkmark001:before{
+	width:32px;
+	height:32px;
+	background:#ffffff;
+    	border:2px solid #000000;
+	left:0;top:2px;
+}
+.checkmark001:after{
+	border-left:4px solid rgb(51, 201, 93);
+	border-bottom:4px solid rgb(51, 201, 93);
+	width:36px;
+	height:10px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	left:10px;
+	top:6px;
+}
+.to-plan {
+  display: inline-block;
+  padding:15px 80px;
+  background-color: white;
+  color: rgb(51, 201, 93);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 35px;
+  margin-top: 30px;
+}
+.pp {
+  color:white;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.balloon2 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  margin-bottom: 60px;
+  padding: 10px 27px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px white;
+  box-sizing: border-box;
+}
+
+.balloon2:before {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  border-top: 12px solid white;
+  z-index: 2;
+}
+
+.balloon2:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid white;
+  z-index: 1;
+}
+
+.balloon2 p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.under {
+  background: linear-gradient(transparent 70%, #FF9C29 70%);
+}
+.fail-wrapper {
+  height:300px;
+  padding:5px;
+  background-color: rgb(237, 237, 237);
+  margin:30px 300px;
+  border-radius: 20px;
+  position: relative;
+}
+.fail-content {
+  float:left;
+  padding-left: 30px;
+}
+.fail-content h2 {
+  font-size: 33px;
+  float:left;
+  border-bottom: 2px solid rgb(213, 213, 213);
+}
+.fail-content p {
+  width:57%;
+}
+.fail-image img {
+  width:27%;
+  position: absolute;
+  left:540px;
+  top:25px;
+}
+.fail-image p {
+  display: inline-block;
+  position:absolute;
+  font-weight: bold;
+  font-size: 20px;
+  left: 620px;
+  top: 225px;
+}
+.ppp {
+  display: inline-block;
+  width:52%;
+}
+.ppp1 {
+  display: inline-block;
+  width:60%;
+}
+.target-wrapper {
+  height:820px;
+}
+.service-wrapper {
+  height:900px;
+}
+.service-image img {
+  display: inline-block;
+  width: 300px;
+  padding-top: 90px;
+  padding-bottom: 35px;
+}
+.service h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.service p {
+  display: inline-block;
+  opacity: 0.5;
+  width:50%;
+}
+.fade_off {
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+.fade_on {
+    opacity: 1;
+}
+.problems-wrapper {
+  margin-top: 1200px;
+  height: 940px;
+}
+.signup-wrapper {
+  height:256px;
+  background-color: rgb(51, 201, 93);
+  padding: 0 40px;
+}
+.signup-wrapper h2 {
+  padding-top: 50px;
+  font-size: 30px;
+  color:white;
+}
+.price-wrapper {
+  height: 750px;
+  margin-top: 70px;
+}
+.features {
+  padding: 0 250px;
+}
+.feature {
+  float:left;
+  width: 25%;
+}
+.feature-image img {
+  display: inline-block;
+  width: 50%;
+  padding-top: 80px;
+}
+.feature p {
+  font-weight: bold;
+}
+.features2 {
+  padding: 0 350px;
+}
+.feature2 {
+  float: left;
+  width: 33.3%;
+}
+.feature2-image img {
+  display: inline-block;
+  width: 45%;
+  padding-top: 30px;
+}
+.feature2 p {
+  font-weight: bold;
+}
+.money-wrapper {
+  height: 1000px;
+}
+.unko {
+  color: orange;
+}
+.price-box {
+  background-color: rgb(241, 241, 242);
+  height: 170px;
+  margin:40px 500px;
+  border-top: 70px solid rgb(51, 201, 93);
+  position: relative;
+}
+.price-box h3 {
+  display: inline-block;
+  position: absolute;
+  left:130px;
+  float:left;
+  font-family: "League Gothic";
+  font-weight: normal;
+  font-size: 80px;
+  margin-top: 40px;
+}
+.p1 {
+  float: left;
+  position: absolute;
+  font-size: 27px;
+  font-weight: bold;
+  left:70px;
+  top:54px;
+}
+.p2 {
+  float: left;
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  left: 285px;
+  top:46px;
+}
+.p3 {
+  float: left;
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  left: 285px;
+  top:48px;
+}
+.ifnot h3 {
+  padding-top: 60px;
+  display: inline-block;
+  width:47%;
+}
+.ifnot span {
+  color: rgb(51, 201, 93);
+}
+.condition-image img {
+  display: inline-block;
+  width: 300px;
+  padding-top: 90px;
+  padding-bottom: 35px;
+}
+.condition h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.condition p {
+  display: inline-block;
+  opacity: 0.5;
+  width:50%;
+}
