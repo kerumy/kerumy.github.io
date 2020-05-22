@@ -2,11 +2,336 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Progate</title>
+    <title>StudyStyle</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <h1 class="title">HTML & CSS の開発環境を用意しよう！</h1>
-    <p>自分のPCでWebページを開発する方法を学習しましょう</p>
+    <header>
+      <div class="container">
+        <div class="header-menu">
+          <span class="fas fa-bars fa-lg"></span>
+        </div>
+        <div class="header-logo">
+          <img src="image/ststlog.jpg">
+        </div>
+        <div class="header-list">
+          <ul>
+            <li><a href="#" class="login-btn">ログイン</a></li>
+            <li><a href="#" class="signup-btn">会員登録</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>本当に勉強が楽しいって</h1>
+        <h1>スタディスタイルで気付けた</h1>
+        <p class="hash">#大学入学共通テスト対策</p>
+        <p class="hash2">#全額返金キャンペーン実施中！</p>
+      </div>
+    </div>
+    <main>
+      <div class="intro-wrapper">
+        <div class="container">
+          <div class="heading fade_off" id="sample1">
+            <h3>Question</h3>
+            <h2>スタディスタイルとは？</h2>
+            <p>東大発の全額返金保証付きオンライン学習指導サービスです。現役東大生による月４回の学習指導と質問し放題のチャットサービスでお子さまの成績向上・志望校合格を全力で実現させます。</p>
+          </div>
+          <div class="courses fade_off" id="sample2">
+            <div class="course">
+              <div class="course-image">
+                <img src="image/cons-5.gif">
+              </div>
+              <h3>オンライン学習指導</h3>
+              <p>厳選した現役東大生コーチによる学習計画によりお子さまの効率的かつ効果的な勉強をサポート</p>
+            </div>
+            <div class="course">
+              <div class="course-image">
+                <img src="image/chat-2.gif">
+              </div>
+              <h3>勉強質問し放題</h3>
+              <p>24時間いつでもすぐにLINEで質問できる勉強質問チャットサービスを無料でご利用可能</p>
+            </div>
+            <div class="course">
+              <div class="course-image">
+                <img src="image/improve.1.gif">
+              </div>
+              <h3>成果第一主義</h3>
+              <p>「成績が上がらない」「志望校に落ちた」等、お客様のご期待に添えなければ全額返金が可能(*)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="check-wrapper">
+        <div class="container">
+          <h3>まずは以下をチェック！</h3>
+          <div class="check-box">
+            <div class="check fade_off">
+              <span class="checkmark001">勉強しても結果が出ない…</span>
+            </div>
+            <div class="check fade_off">
+              <span class="checkmark001">どう受験勉強していいか分からない</span>
+            </div>
+            <div class="check fade_off">
+              <span class="checkmark001">完全独学で受験に臨もうとしている</span>
+            </div>
+            <div class="check fade_off">
+              <span class="checkmark001">知名度や実績で塾・予備校を選ぼうとしている</span>
+            </div>
+            <div class="check fade_off">
+              <span class="checkmark001">塾に通った（通わせた）だけで満足している</span>
+            </div>
+
+          </div>
+          <h3>上記が１つでも当てはまる方は非常に危険です！^^;</h3>
+
+
+          <div class="balloon2">
+            <p>受験<span class="under">あるある</span>の失敗談をまとめてみました</p>
+          </div>
+          <div class="fail-wrapper fade_off">
+            <div class="fail-content">
+              <h2>塾に数百万円払って落ちました</h2>
+              <p>高校３年の春、学校の友達に誘われて、とある大手有名予備に入会しました。担当のメンターに言われるまま全科目の授業に申し込み、胸を膨らませて予備校生活がスタート。しかし、実際に授業を受けてみると想像したものとは異なり、違和感をもちながら惰性で塾に通う日々が続きました。授業を受けていれば大丈夫と何もしていなかったら見事に志望校に落ち、数百万円が跡形もなく溶けましたよ。</p>
+            </div>
+            <div class="fail-image">
+              <img src="image/dontpass.gif">
+              <p>学生A</p>
+            </div>
+          </div>
+          <div class="fail-wrapper fade_off">
+            <div class="fail-content">
+              <h2>独学でいけると甘く見ていた…</h2>
+              <p>私は変にプライドがあって、塾・予備校には絶対に通わないで独学で合格を勝ち取ってやろうと思い、参考書を中心に自宅勉強をしていました。分からない問題は聞く人がいないので後回しにしていました。解けない問題を放置していたので基礎もボロボロで、そのまま高３に突入して次第に焦り始めました。あとで知ったのですが、私の勉強法は非常に効率が悪いものだったらしいです。</p>
+            </div>
+            <div class="fail-image">
+              <img src="image/dontpass.gif">
+              <p>学生B</p>
+            </div>
+          </div>
+          <div class="fail-wrapper fade_off">
+            <div class="fail-content">
+              <h2>予備校の闇システムを体感した</h2>
+              <p>当時偏差値だと40程度しかなかった私は有名講師と合格実績で大手予備校に決めたのですが、入会の際に無駄に受講数を増やされたせいできちんと内容を消化できないまま授業だけ参加する生活に。当然志望校には落ちたのですが、あとで聞いたところ、どの大手塾も一部の優等生を特待制度で無料で通わせて合格実績をつくり、その分落ちこぼれの学生から搾取するビジネス構造だと聞きショックを受けました。</p>
+            </div>
+            <div class="fail-image">
+              <img src="image/dontpass.gif">
+              <p>学生C</p>
+            </div>
+          </div>
+          <h3 class="ppp fade_off">このように、受験は一種の情報戦で、勉強方法を含めいかに正しい情報を得られるかが非常に重要なのです!</h3>
+          <h3 class="ppp1 fade_off">スタディスタイルでは、受験を終えたばかりの"受験のプロ"である現役東大生がお子さまのことを第一に考えて、じっくり丁寧に責任を持って学習指導させて頂きます！</h3>
+          <div class="ppp2 fade_off">
+            <span class="to-plan">料金を見る</span>
+          </div>
+        </div>
+      </div>
+      <div class="target-wrapper">
+        <div class="container">
+          <div class="heading fade_off" id="sample3">
+            <h3>Targets</h3>
+            <h2>こんな人にもオススメ！</h2>
+            <p>スタディスタイルは上記項目該当者の他、以下に該当するお客さまにもサービスのご利用を推奨しております。</p>
+          </div>
+          <div class="courses fade_off" id="sample4">
+            <div class="course">
+              <div class="course-image">
+                <img src="image/result.gif">
+              </div>
+              <h3>定期試験対策</h3>
+              <p>高校受験や内部進学のための内申点を上げたいというお客様も</p>
+            </div>
+            <div class="course">
+              <div class="course-image">
+                <img src="image/_utbui.gif">
+              </div>
+              <h3>超難関受験</h3>
+              <p>東大・京大・医学部をはじめとした難関大受験の他、難関中高受験対策をお考えのお客様も</p>
+            </div>
+            <div class="course">
+              <div class="course-image">
+                <img src="image/qa.gif">
+              </div>
+              <h3>進路相談</h3>
+              <p>「文理選択で迷っている」「どの学部にしようか悩む」等、進路に関する質問もご希望のお客様も</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="service-wrapper">
+        <div class="container">
+          <div class="heading fade_off" id="sample5">
+            <h3>Services</h3>
+            <h2>どんなサービスなの？</h2>
+            <p>スタディスタイルは、お子さまの成績向上・志望校合格を叶える必要最低限の非常にシンプルなサービス提供を心がけています。他社のように余計なサービスではお金を一切頂きません。</p>
+          </div>
+          <div class="services">
+            <div class="service fade_off" id="sample6">
+              <div class="service-image">
+                <img src="image/cons-5.gif">
+              </div>
+              <h3>1. オンライン学習指導</h3>
+              <p>担当する現役東大生コーチと毎週、ビデオ通話で１週間分の勉強計画を立てます。70分間の学習相談で勉強計画はもちろんのこと、解けない問題の解説や勉強法相談、進路相談なども承ります。（ただし、一般的な塾のようにカリキュラムに沿った授業をするものではありません。）</p>
+
+            </div>
+            <div class="service fade_off" id="sample7">
+              <div class="service-image">
+                <img src="image/chat-2.gif">
+              </div>
+              <h3>2. 質問し放題チャット</h3>
+              <p>弊社独自開発の安心チャットサービスを用いれば、24時間いつでもどこにいても解けない問題を担当の現役東大生に全科目何回でも質問できます。こちらのサービスは料金に含まれておりますので、ご契約者様（お子さま）は誰でもお使いいただけます。</p>
+            </div>
+            <div class="service fade_off" id="sample8">
+              <div class="service-image">
+                <img src="image/wallet.gif">
+              </div>
+              <h3>3. 全額返金保証付き</h3>
+              <p>スタディスタイルは授業をせずとも、”受験のプロ”である現役東大生コーチがお子さまに合う効率的かつ効果的な勉強法・勉強計画を確立します。そして、成績向上・志望校合格を本気で実現させます。万が一ご期待に添えないようなことがありましたら、条件(*)を満たすお客様には全額返金をお約束致します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="problems-wrapper">
+        <div class="container">
+          <div class="heading fade_off" id="sample9">
+            <h3>Problems</h3>
+            <h2>教育業界の問題点を克服</h2>
+            <p>スタディスタイルは、「成績向上と志望校合格だけに必要なことは何か」を徹底的に考え抜き、教育業界にある以下の重大な問題点を克服しました。</p>
+          </div>
+
+          <div class="courses fade_off" id="sample10">
+            <div class="course">
+              <div class="course-image">
+                <img src="image/exchange.gif">
+              </div>
+              <h3>"安心を買うだけ"</h3>
+              <p>「神授業」「カリスマ講師」「合格者数」…どれも安心を買わせるためのみせかけに過ぎません。本当に手に入れたいのは「成績向上」と「志望校合格」ではありませんか？</p>
+            </div>
+            <div class="course">
+              <div class="course-image">
+                <img src="image/fly.gif">
+              </div>
+              <h3>"入って満足"</h3>
+              <p>有名塾・予備校入会→満足→散財・不合格が、残念ながらほとんどのケースです。スタディスタイルは、お子さまの努力を継続させ、成績向上・志望校合格を必ず実現します。</p>
+            </div>
+            <div class="course">
+              <div class="course-image">
+                <img src="image/njn.gif">
+              </div>
+              <h3>"無駄な高額費用"</h3>
+              <p>立派な校舎や美人の受付、光熱費、教材費…これらはお子さまの教育に必要でしょうか？我々は無駄な費用を一切削ることで、トップレベルの良質な教育をお客様にお届けします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="signup-wrapper">
+        <div class="container">
+          <h2 class="p2p fade_off">スタディスタイルで飛躍的に成長しよう！</h2>
+          <span class="to-plan p2p fade_off">会員登録する</span>
+        </div>
+      </div>
+      <div class="price-wrapper">
+        <div class="container">
+          <div class="heading fade_off" id="sample11">
+            <h3>Price</h3>
+            <h2>シンプルな料金設定</h2>
+            <p>入会金・初期費用は０。その他、年会費や教材費など余分な費用も一切カット。シンプルでわかりやすい料金設定を実現しました。</p>
+          </div>
+          <div class="features fade_off" id="sample12">
+            <div class="feature">
+              <div class="feature-image">
+                <img src="image/chheck.gif">
+              </div>
+              <p>全科目対応</p>
+            </div>
+            <div class="feature">
+              <div class="feature-image">
+                <img src="image/cons-5.gif">
+              </div>
+              <p>月４回指導</p>
+            </div>
+            <div class="feature">
+              <div class="feature-image">
+                <img src="image/chat-2.gif">
+              </div>
+              <p>質問し放題</p>
+            </div>
+            <div class="feature">
+              <div class="feature-image">
+                <img src="image/_utbui.gif">
+              </div>
+              <p>東大生講師</p>
+            </div>
+          </div>
+          <div class="features2 fade_off" id="sample13">
+            <div class="feature2">
+              <div class="feature2-image">
+                <img src="image/njn.gif">
+              </div>
+              <p>入会金等0</p>
+            </div>
+            <div class="feature2">
+              <div class="feature2-image">
+                <img src="image/improve.1.gif">
+              </div>
+              <p>成果第一</p>
+            </div>
+            <div class="feature2">
+              <div class="feature2-image">
+                <img src="image/wallet.gif">
+              </div>
+              <p>全額返金保証</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="money-wrapper">
+        <div class="container">
+          <div class="heading1 fade_off">
+            <h3 class="unko">↓これだけ揃ってこのお値段↓</h3>
+            <div class="price-box">
+              <p class="p1">月額</p>
+              <h3>49,800</h3>
+              <p class="p2">税抜</p>
+              <p class="p3">円</p>
+            </div>
+          </div>
+          <div class="ifnot fade_off" id="sample14">
+            <h3>万が一、弊社サービスを利用しても<span>成績向上・志望校合格できなかった</span>場合、以下の条件を<span>全て</span>満たすお客様はお支払い代金を<span>全額返金</span>させて頂きます。</h3>
+          </div>
+          <div class="conditions">
+            <div class="condition fade_off" id="sample15">
+              <div class="condition-image">
+                <img src="image/result.gif">
+              </div>
+              <h3>1. 確認テスト8割得点</h3>
+              <p>全額返金保証の適用条件として、確認テストの成績があります。指導時に行われる担当コーチオリジナルの確認テストの得点が毎回８割を超えているにも関わらず、残念ながら成績不振・志望校不合格となってしまったお客様に適応されます。</p>
+
+            </div>
+            <div class="condition fade_off" id="sample16">
+              <div class="condition-image">
+                <img src="image/seiseki.gif">
+              </div>
+              <h3>2. 成績・合否通知書の提出</h3>
+              <p>全額返金サービス適用条件２つ目に、成績通知書または合否通知書のコピーの提出があります。この２つは成績不振と合否の根拠となるので必ず控えておいてください。提出に応じていただけるお客様のみ全額返金保証を受けられます。</p>
+            </div>
+            <div class="condition fade_off" id="sample17">
+              <div class="condition-image">
+                <img src="image/cons-5.gif">
+              </div>
+              <h3>3. 返金後のサービスご利用禁止</h3>
+              <p>３つ目の条件として、返金後の弊社サービス一切のご利用をご遠慮頂いております。これはお客様の貴重なお金とお時間を頂いたのにも関わらず、時間内に成果を出せなかった弊社自身に対する反省と戒めを表すものです。本来ならば通常の塾・予備校同様に、ご期待に添えなかった後も指導を継続してより一層全力でお子さまの成績向上・志望校合格に貢献すべきところです。しかし、ここは運営・コーチ一同、しっかりと自分たちの至らなさを反省し、今後のサービス向上に努めたく存じ上げます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
